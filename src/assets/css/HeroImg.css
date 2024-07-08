@@ -1,0 +1,11 @@
+.hero-img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
