@@ -20,17 +20,17 @@ const ContactUs = () => {
             <Form action="https://formspree.io/f/xqkrogpy"method="POST">
               <Form.Group controlId="formName">
                 <Form.Label>Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter your name" name='name'/>
+                <Form.Control type="text" placeholder="Enter your name" name='name' required/>
               </Form.Group>
 
               <Form.Group controlId="formEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter your email" name='email'/>
+                <Form.Control type="email" placeholder="Enter your email" name='email' required/>
               </Form.Group>
 
               <Form.Group controlId="formMessage">
                 <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows={3} placeholder="Enter your message" name="message"/>
+                <Form.Control as="textarea" rows={3} placeholder="Enter your message" name="message" required/>
               </Form.Group>
 
               <Button variant="primary" type="submit">
